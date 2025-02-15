@@ -498,6 +498,62 @@ const flashcards = [
         "question": "Quelle mention doit figurer sur la carte des mets lorsqu'une denrée alimentaire a été génétiquement modifiée ?",
         "answer": "Produit à partir de … (nom de la denrée alimentaire).",
         "type": "text"
+    },
+    {
+        "question": "Quelle est la température recommandée pour la chambre froide?",
+        "options": ["A. 2°C", "B. 4°C", "C. 6°C", "D. 0°C"],
+        "answer": "B",
+        "type": "mcq"
+    },
+    {
+        "question": "Combien de jours peut-on conserver la viande crue à 3°C?",
+        "options": ["A. 1 jour", "B. 2 jours", "C. 3 jours", "D. 5 jours"],
+        "answer": "C",
+        "type": "mcq"
+    },
+    {
+        "question": "Quelle est la température de conservation du poisson surgelé?",
+        "options": ["A. -10°C", "B. -15°C", "C. -20°C", "D. -25°C"],
+        "answer": "C",
+        "type": "mcq"
+    },
+    {
+        "question": "Combien de temps peut-on conserver les fruits de mer à 4°C?",
+        "answer": "24 heures",
+        "type": "text"
+    },
+    {
+        "question": "La viande hachée doit être consommée à une température de 3°C.",
+        "answer": true,
+        "type": "boolean"
+    },
+    {
+        "question": "Quelle est la température minimale recommandée pour la cuisson?",
+        "options": ["A. 55°C", "B. 65°C", "C. 75°C", "D. 85°C"],
+        "answer": "B",
+        "type": "mcq"
+    },
+    {
+        "question": "À quelle température doit-on saisir la viande lors de la première étape de cuisson?",
+        "options": ["A. 150°C", "B. 180°C", "C. 200°C", "D. 250°C"],
+        "answer": "B",
+        "type": "mcq"
+    },
+    {
+        "question": "Quelle est la température de risque pour la croissance bactérienne?",
+        "options": ["A. 5°C", "B. 37°C", "C. 65°C", "D. 100°C"],
+        "answer": "B",
+        "type": "mcq"
+    },
+    {
+        "question": "Les aliments sont en sécurité si conservés au-dessus de 65°C ou en dessous de 5°C.",
+        "answer": true,
+        "type": "boolean"
+    },
+    {
+        "question": "Combien de temps dure la cuisson à 55°C pour obtenir une cuisson saignante?",
+        "answer": "1h30",
+        "type": "text"
     }
 
 ]
@@ -526,6 +582,8 @@ function updateCard() {
     }
     updateProgressBar();
 }
+
+document.getElementById("title").textContent = `Hygiène alimentaire (${shuffledFlashcards.length} questions)`;
 
 function flipCard() {
     const currentCard = shuffledFlashcards[currentIndex];
