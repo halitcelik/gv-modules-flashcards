@@ -340,32 +340,11 @@ const flashcards = [
         "answer": "Réfrigérateur, four, trancheuse, mixeur.",
         "type": "text"
     },
-    {
-        "question": "Quelle est la température réglementaire d'un frigo à poisson et d'un congélateur?",
-        "options": [
-            "A. 0°C et -10°C",
-            "B. 2°C et -15°C",
-            "C. 4°C et -18°C",
-            "D. 6°C et -20°C"
-        ],
-        "answer": "C",
-        "type": "mcq"
-    },
+    
     {
         "question": "Comment doit-on garder des aliments au congélateur ?",
         "answer": "Dans des contenants hermétiques, avec une étiquette indiquant la date de congélation.",
         "type": "text"
-    },
-    {
-        "question": "Quelle est la couleur d'une planche à découper le poisson cru?",
-        "options": [
-            "A. Rouge",
-            "B. Jaune",
-            "C. Bleu",
-            "D. Vert"
-        ],
-        "answer": "C",
-        "type": "mcq"
     },
     {
         "question": "Pour la remise à température d'un produit, différents points sont à respecter, veuillez en citer deux.",
@@ -412,17 +391,124 @@ const flashcards = [
         "question": "Le nettoyage et la désinfection sont identiques.",
         "answer": false,
         "type": "boolean"
+    },
+    {
+        "question": "Quel est le rôle du responsable de l'entreprise vis-à-vis de ses collaborateurs en matière d'hygiène?",
+        "answer": "Former ses collaborateurs afin qu'ils connaissent les bases légales et les appliquent.",
+        "type": "text"
+    },
+    {
+        "question": "L'hygiène se divise en 4 domaines spécifiques, veuillez en citer 2.",
+        "answer": "Hygiène alimentaire, hygiène vétérinaire, hygiène corporelle, hygiène de vie.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle est la différence entre la sécurité des aliments (food safety) et la sécurité alimentaire (food security) ?",
+        "answer": "Food safety : l'assurance que les aliments une fois préparés ne causeront pas de dommage au consommateur. Food security : sécurité des approvisionnements alimentaires en quantité et en qualité.",
+        "type": "text"
+    },
+    {
+        "question": "Quels sont 4 objets usuels derrière le bar nécessitant une hygiène irréprochable ?",
+        "answer": "Lave-vaisselle, machine à glaçons, presse-agrumes, machine à café.",
+        "type": "text"
+    },
+    {
+        "question": "Quels sont 4 objets usuels en salle nécessitant une hygiène irréprochable ?",
+        "answer": "Assiettes, couverts, pochette facture, carte des mets & vins.",
+        "type": "text"
+    },
+    {
+        "question": "Quels sont les recommandations en matière d'hygiène à appliquer derrière le bar ?",
+        "answer": "Nettoyage du réfrigérateur une fois par semaine avec eau tiède et vinaigre blanc, éviter les nettoyants chimiques des grandes surfaces, chaque aliment doit être rangé à un endroit précis.",
+        "type": "text"
+    },
+    {
+        "question": "Est-il recommandé de recongeler un aliment décongelé ?",
+        "answer": false,
+        "type": "boolean"
+    },
+    {
+        "question": "Quelle matière est non recommandée pour les ustensiles et matériel de bar et pourquoi ?",
+        "answer": "Le bois, car ses pores permettent aux microbes de s'y nicher.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle précaution faut-il appliquer après utilisation de la crème fraiche en cocktail ?",
+        "answer": "Replacer immédiatement la crème au réfrigérateur.",
+        "type": "text"
+    },
+    {
+        "question": "Où et de quelle manière doivent être stockés les œufs ?",
+        "answer": "Au bas de la chambre froide, en hauteur avec la tête de l'œuf vers le haut.",
+        "type": "text"
+    },
+    {
+        "question": "Citez 4 endroits où l'hygiène est primordiale dans un établissement.",
+        "answer": "Murs, plafonds, portes, plan de travail.",
+        "type": "text"
+    },
+    {
+        "question": "Quels équipements doivent être présents dans les pièces de transformation des denrées alimentaires ?",
+        "answer": "Lavabos avec eau chaude et froide, distributeur de savon liquide, essuie-mains en rouleaux ou serviettes jetables.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle est la température recommandée du chauffe-eau pour éviter la contamination du circuit d'eau chaude ?",
+        "options": ["A. 50°C", "B. 55°C", "C. 60°C", "D. 65°C"],
+        "answer": "C",
+        "type": "mcq"
+    },
+    {
+        "question": "Citez deux instruments de mesure et de contrôle en cuisine et leur utilité.",
+        "answer": "Balance pour mesurer le poids des aliments, thermomètre pour vérifier les températures de cuisson et de conservation.",
+        "type": "text"
+    },
+    {
+        "question": "Quel est le but de la désinfection ?",
+        "answer": "Détruire les micro-organismes.",
+        "type": "text"
+    },
+    {
+        "question": "Quel dispositif doit équiper les buffets en libre-service ?",
+        "answer": "Un dispositif de protection contre les expectorations.",
+        "type": "text"
+    },
+    {
+        "question": "Quels sont les précautions à appliquer lorsque des aliments sont présentés en vrac à l'extérieur ?",
+        "answer": "Protéger des insectes et nuisibles, protéger de la contamination avec des couvercles, contrôler la température.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle est la différence entre les installations 'postmix' et 'premix' ?",
+        "answer": "Postmix : boissons livrées en fûts sous forme de concentré. Premix : boissons livrées en fûts prêtes à l'emploi.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle est la température recommandée pour maintenir des plats au chaud (bain-marie) ?",
+        "options": ["A. 50°C", "B. 60°C", "C. 65°C", "D. 70°C"],
+        "answer": "C",
+        "type": "mcq"
+    },
+    {
+        "question": "Quels sont les 3 points spécifiques à mentionner sur les cartes des mets & boissons ?",
+        "answer": "Carte des mets : nom de la denrée alimentaire, prix. Carte des boissons : quantité lors du débit en vrac, prix.",
+        "type": "text"
+    },
+    {
+        "question": "Quelle mention doit figurer sur la carte des mets lorsqu'une denrée alimentaire a été génétiquement modifiée ?",
+        "answer": "Produit à partir de … (nom de la denrée alimentaire).",
+        "type": "text"
     }
 
 ]
-
+const shuffledFlashcards = flashcards.sort(() => Math.random() - 0.5);
 const flashcard = document.getElementById('flashcard');
 const booleanButtons = document.getElementById('boolean-buttons');
 const mcqButtons = document.getElementById('mcq-buttons');
 const progressBar = document.getElementById('progress-bar');
 
 function updateCard() {
-    const currentCard = flashcards[currentIndex];
+    const currentCard = shuffledFlashcards[currentIndex];
     flashcard.textContent = currentCard.question;
     flashcard.classList.remove('correct', 'incorrect');
     booleanButtons.style.display = currentCard.type === "boolean" ? 'flex' : 'none';
@@ -442,34 +528,34 @@ function updateCard() {
 }
 
 function flipCard() {
-    const currentCard = flashcards[currentIndex];
+    const currentCard = shuffledFlashcards[currentIndex];
     flashcard.textContent = flashcard.textContent === currentCard.question ? currentCard.answer : currentCard.question;
 }
 
 function checkAnswer(userAnswer) {
-    const currentCard = flashcards[currentIndex];
+    const currentCard = shuffledFlashcards[currentIndex];
     flashcard.classList.add(userAnswer === currentCard.answer ? 'correct' : 'incorrect');
     setTimeout(nextCard, 1000);
 }
 
 function checkMCQAnswer(userAnswer) {
-    const currentCard = flashcards[currentIndex];
+    const currentCard = shuffledFlashcards[currentIndex];
     flashcard.classList.add(userAnswer.startsWith(currentCard.answer) ? 'correct' : 'incorrect');
     setTimeout(nextCard, 1000);
 }
 
 function nextCard() {
-    currentIndex = (currentIndex + 1) % flashcards.length;
+    currentIndex = (currentIndex + 1) % shuffledFlashcards.length;
     updateCard();
 }
 
 function prevCard() {
-    currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
+    currentIndex = (currentIndex - 1 + shuffledFlashcards.length) % shuffledFlashcards.length;
     updateCard();
 }
 
 function updateProgressBar() {
-    const progress = ((currentIndex + 1) / flashcards.length) * 100;
+    const progress = ((currentIndex + 1) / shuffledFlashcards.length) * 100;
     progressBar.style.width = progress + "%";
 }
 
