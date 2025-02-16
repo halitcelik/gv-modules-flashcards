@@ -690,7 +690,7 @@ function updateCard() {
     updateProgressBar();
 }
 
-document.getElementById("title").textContent = `Hygiène alimentaire (${shuffledFlashcards.length} questions)`;
+document.getElementById("title").textContent = `${document.getElementById("title").textContent} (${shuffledFlashcards.length} questions)`;
 
 function flipCard() {
     const currentCard = shuffledFlashcards[currentIndex];
