@@ -7,12 +7,6 @@ const part1 = [
         "type": "mcq"
     },
     {
-        "question": "Quel est le nombre maximal d'heures de travail pour un jeune de plus de 13 ans scolarisé pendant les vacances?",
-        "options": ["A. 30 heures/semaine", "B. 35 heures/semaine", "C. 40 heures/semaine", "D. 45 heures/semaine"],
-        "answer": "C",
-        "type": "mcq"
-    },
-    {
         "question": "Les jeunes de moins de 16 ans peuvent-ils travailler la nuit ou le dimanche?",
         "answer": false,
         "type": "boolean"
